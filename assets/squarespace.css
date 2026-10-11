@@ -1,0 +1,91 @@
+#maura-interactive #demo {
+    font-family: "";
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 123%;
+  
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  #maura-interactive .word {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  #maura-interactive .letter {
+    display: inline-block;
+  }
+  
+  #maura-interactive .space {
+    display: inline;
+  }
+  
+  
+  /* added for code purposed */
+  /* =========================================
+     4D PHOTO BOOTH — HORIZONTAL SCROLL TEST
+  ========================================= */
+  
+  section[data-section-id="6ac32937a540f064c343f4ca"] {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  
+    /* smooth touch scrolling */
+    -webkit-overflow-scrolling: touch;
+  
+    /* hide scrollbar */
+    scrollbar-width: none;
+  }
+  
+  section[data-section-id="6ac32937a540f064c343f4ca"]::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  /* =========================================
+     4D PHOTO BOOTH — HORIZONTAL SCROLL TEST
+  ========================================= */
+  
+  section[data-section-id="6ac32937a540f064c343f4ca"] {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  
+    /* smooth touch scrolling */
+    -webkit-overflow-scrolling: touch;
+  
+    /* hide scrollbar */
+    scrollbar-width: none;
+  }
+  
+  section[data-section-id="6ac32937a540f064c343f4ca"]::-webkit-scrollbar {
+    display: none;
+  }
+
+/* =========================================
+   4D PHOTO BOOTH — HORIZONTAL SCROLL TEST
+========================================= */
+
+section[data-section-id="6ac32937a540f064c343f4ca"] {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+  
+    /* smooth touch scrolling */
+    -webkit-overflow-scrolling: touch;
+  
+    /* hide scrollbar */
+    scrollbar-width: none;
+  }
+  
+  section[data-section-id="6ac32937a540f064c343f4ca"]::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  /* Make the Fluid Engine canvas wider than the screen */
+  section[data-section-id="6ac32937a540f064c343f4ca"] .fluid-engine {
+    width: 200vw !important;
+    max-width: none !important;
+  }
