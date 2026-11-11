@@ -5,13 +5,47 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Project — Maura</title>
     <link rel="stylesheet" href="css/styles.css" />
+
+    <style>
+      /* @font-face {
+            font-family: "HalTimezoneMonoVariable";
+            src: url("./HALTimezoneMonoVariableUnlicensed-Variable.ttf")
+              format("opentype");
+            font-weight: 360;
+            font-style: normal;
+          } */
+
+      @media (hover: hover) and (pointer: fine) {
+        html,
+        body {
+          cursor:
+            url("../assets/cursor-2-32.png") 0 20,
+            /* url("../assets/cursor-3.png") 0 20, */ auto !important;
+        }
+      }
+
+      @font-face {
+        font-family: "HalTimezoneMonoVariable";
+        src: url("./HALTimezoneMonoVariableUnlicensed-Variable.ttf")
+          format("truetype");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
   </head>
   <body data-page="project">
     <header class="site-header">
-      <a href="index.html">home</a><a href="index.html#about">about</a>
+      <a href="index-7.html">Home ⌂</a><a href="about.html">About ⍰</a>
     </header>
     <main id="project-root"></main>
     <script src="js/data.js"></script>
     <script src="js/site.js"></script>
+    <!-- <script src="js/typewriter.js"></script> -->
+    <script src="js/interactive-text.js" defer></script>
+    <script src="js/image-hover.js"></script>
+    <script src="js/cursor.js" defer></script>
+    <script src="js/typewriter-sound.js" defer></script>
+    <script src="js/typewriter-v2.js" defer></script>
   </body>
 </html>
